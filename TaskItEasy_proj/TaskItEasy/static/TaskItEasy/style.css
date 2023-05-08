@@ -1,7 +1,49 @@
 h1{
-    color: blue;
+    color: rgb(17, 17, 15);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
     text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 body{
-    background-color: aqua;
+    background-image: url("background_index.jpg");
+    background-repeat: repeat;
+    background-size: cover;
 }
+form {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  label {
+    font-family: Helvetica, Arial, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border:#2c2929;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
