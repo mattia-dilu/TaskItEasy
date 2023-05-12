@@ -2,7 +2,9 @@
 
 {% block body %}
     <h1> Task It Easy </h1>
-    <form>
+    <p> <a href="{% url 'register' %}">Register Now</a> </p>
+    <form action= "{% url 'index' %}" method = "post">
+      {% csrf_token %}
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         
@@ -10,9 +12,12 @@
         <input type="email" id="email" name="email" required>
         
         <label for="password">Password:</label>
-        <input id="password" name="Password" required></input>
+        <input id="password" name="password" required></input>
         
         <button type="submit">Login</button>
       </form>
       
+      
+      
 {% endblock %}
+

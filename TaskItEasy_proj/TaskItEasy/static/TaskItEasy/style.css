@@ -46,4 +46,7 @@ form {
     font-size: 16px;
     padding: 10px 20px;
   }
-  
+p{
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
